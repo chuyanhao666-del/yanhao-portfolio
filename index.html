@@ -1,54 +1,161 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yanhao Chu · UNSW Media & Communication Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yanhao Chu · Portfolio</title>
+  <meta name="description" content="UNSW Media & Communication · Portfolio">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Yanhao Chu · UNSW Media & Communication Portfolio</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="#home">Yanhao</a>
+      <nav>
+        <a href="#projects">作品</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a Media & Communication student at UNSW, passionate about creative storytelling, film analysis, and data visualization. This portfolio showcases my coursework and personal projects.</p>
-  </section>
+  <main id="home">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-left">
+          <div class="pill">UNSW · Media & Communication</div>
+          <h1>作品集网站：<span class="grad">课程作业 & 创意项目</span></h1>
+          <p class="lead">一套开箱即用的静态模板：深色、响应式、好看。非常适合作业提交、课程展示与申请材料。</p>
+          <div class="cta">
+            <a class="btn" href="#projects">查看作品</a>
+            <a class="btn ghost" href="#contact">联系我</a>
+          </div>
+          <ul class="ticks">
+            <li>⚡ 无需后台</li>
+            <li>📱 完全响应式</li>
+            <li>🔒 HTTPS 自动开启</li>
+          </ul>
+        </div>
+        <div class="hero-card">
+          <h3>快速信息</h3>
+          <ul class="facts">
+            <li><span>作者</span><strong>Yanhao Chu</strong></li>
+            <li><span>学校</span><strong>UNSW</strong></li>
+            <li><span>方向</span><strong>Media · Film · Data</strong></li>
+            <li><span>部署</span><strong>Vercel / GitHub Pages</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Selected Works</h2>
-    <div class="project">
-      <h3>Film Sound Analysis</h3>
-      <p>An analysis of sound design in <em>Infernal Affairs</em> (coursework).</p>
-    </div>
-    <div class="project">
-      <h3>KeepCup CSR Evaluation</h3>
-      <p>Evaluation and improvement suggestions for KeepCup's CSR campaign.</p>
-    </div>
-    <div class="project">
-      <h3>NBA Data & Bias</h3>
-      <p>Data visualization of NBA players and a spoken defence on bias in data narratives.</p>
-    </div>
-    <div class="project">
-      <h3>SleepBuddy MVP</h3>
-      <p>Prototype app for improving sleep among international students using gamification.</p>
-    </div>
-  </section>
+    <section id="projects" class="section">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2>精选作品</h2>
+          <p class="muted">把这些示例替换为你的真实作业链接即可。</p>
+        </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:yanhao@email.com">yanhao@email.com</a></p>
-    <p>GitHub: <a href="https://github.com/chuyanhao666-del" target="_blank">github.com/chuyanhao666-del</a></p>
-  </section>
+        <div class="grid">
+          <article class="card">
+            <img src="assets/ph1.svg" alt="project cover">
+            <div class="card-body">
+              <h3>Film Sound Analysis</h3>
+              <p>对《无间道》（Infernal Affairs）中屋顶场景的声音分析：环境声、动机声与情绪张力。</p>
+              <div class="chips"><span>Film</span><span>Sound</span></div>
+              <div class="links"><a href="#" target="_blank">文档</a><a href="#" target="_blank">Slides</a></div>
+            </div>
+          </article>
 
-  <footer>
-    <p>© 2025 Yanhao Chu · UNSW Media & Communication</p>
+          <article class="card">
+            <img src="assets/ph2.svg" alt="project cover">
+            <div class="card-body">
+              <h3>KeepCup CSR Evaluation</h3>
+              <p>基于“Promotional Cultures”的CSR评估与改进建议，强调社区协作与数据透明。</p>
+              <div class="chips"><span>CSR</span><span>Evaluation</span></div>
+              <div class="links"><a href="#" target="_blank">报告</a><a href="#" target="_blank">Slides</a></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/ph3.svg" alt="project cover">
+            <div class="card-body">
+              <h3>NBA Data & Bias</h3>
+              <p>NBA 数据可视化与偏见讨论（spoken defence 摘要），结合数据女性主义与叙事。</p>
+              <div class="chips"><span>Data</span><span>Viz</span></div>
+              <div class="links"><a href="#" target="_blank">Notebook</a><a href="#" target="_blank">海报</a></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/ph4.svg" alt="project cover">
+            <div class="card-body">
+              <h3>SleepBuddy MVP</h3>
+              <p>面向国际学生的睡眠教练原型：打卡、挑战、可视化反馈与轻量AI建议。</p>
+              <div class="chips"><span>UX</span><span>MVP</span></div>
+              <div class="links"><a href="#" target="_blank">演示</a><a href="#" target="_blank">原型</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="wrap grid2">
+        <div>
+          <h2>关于我</h2>
+          <p>我是一名 UNSW 传媒专业学生，关注创意叙事、影视声音与数据可视化。本网站用于整理课程作业、项目与个人实践。</p>
+          <div class="tags">
+            <span>Premiere Pro</span><span>After Effects</span><span>Figma</span>
+            <span>Photoshop</span><span>HTML</span><span>CSS</span><span>Python</span>
+          </div>
+        </div>
+        <div class="box">
+          <h3>当前方向</h3>
+          <ul class="list">
+            <li>影视声音细读与镜头语言</li>
+            <li>Promotional Cultures & CSR 案例</li>
+            <li>数据叙事与可视化</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap grid2">
+        <div>
+          <h2>联系我</h2>
+          <p class="muted">欢迎合作、讨论与课程交流。</p>
+          <ul class="contact-list">
+            <li>📧 <a href="mailto:yanhao@email.com">yanhao@email.com</a>
+            <li>🐙 <a href="https://github.com/chuyanhao666-del" target="_blank">github.com/chuyanhao666-del</a></li>
+            <li>🔗 <a href="#" target="_blank">LinkedIn（可选）</a></li>
+          </ul>
+        </div>
+        <form class="form" onsubmit="return fakeSubmit(event)">
+          <label>姓名</label>
+          <input placeholder="Your name" required>
+          <label>留言</label>
+          <textarea placeholder="Say hi..." rows="5"></textarea>
+          <button class="btn" type="submit">发送</button>
+          <p class="tiny muted">此表单仅演示，不会真的发送。</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> Yanhao Chu</span>
+      <div class="foot-links">
+        <a href="#projects">作品</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
